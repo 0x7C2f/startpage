@@ -1,6 +1,6 @@
 # Startpage
 
-[Live Preview](https://kencx.github.io/startpage/)
+[Live Preview](https://0x7c2f.github.io/startpage/)
 
 Feel free to fork and make your own changes!
 
