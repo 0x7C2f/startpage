@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal startpage with bookmarks">
     <title>~/startpage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -11,41 +13,41 @@
     <div class="container">
         <div class="left-container">
             <div class="gif">
-                <img src="pp.gif" />
+                <img src="pp.gif" alt="Animated character illustration" />
             </div>
         </div>
 
         <div class="right-container">
-            <div class="head">
-                <p>> cd ~/<span class="blinking">_</span></p>
-            </div>
+            <header class="head">
+                <p>> cd ~/<span class="blinking" aria-label="cursor">_</span></p>
+            </header>
 			<hr>
-            <div class="bookmarks">
+            <nav class="bookmarks" aria-label="Quick links">
                 <div class="category">
-                    <div class="links">
-                        <li class="title">Social</li>
+                    <ul class="links">
+                        <li class="title" aria-label="Social category">Social</li>
                         <li><a href="https://4chan.org">4Chan</a></li>
                         <li><a href="https://reddit.com">Reddit</a></li>
-                    </div>
+                    </ul>
                 </div>
                 <div class="category">
-                    <div class="links">
-                        <li class="title">Dev</li>
+                    <ul class="links">
+                        <li class="title" aria-label="Development category">Dev</li>
                         <li><a href="https://github.com/">Github</a></li>
                         <li><a href="https://wiki.archlinux.org/">Arch Wiki</a></li>
                         <li><a href="https://mankier.com/">Mankier</a></li>
                         <li><a href="https://devdocs.io/">DevDocs</a></li>
-                    </div>
+                    </ul>
                 </div>
                 <div class="category">
-                    <div class="links">
-                        <li class="title">Media</li>
+                    <ul class="links">
+                        <li class="title" aria-label="Media category">Media</li>
                         <li><a href="https://open.spotify.com/">Spotify</a></li>
                         <li><a href="https://youtube.com/">Youtube</a></li>
                         <li><a href="https://twitch.tv/">Twitch</a></li>
-                    </div>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
 </body>
